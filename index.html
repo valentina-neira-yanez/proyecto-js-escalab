@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Juego</title>
+</head>
+<body>
+
+<style>
+    #login{display: block;} #game{display: none;}
+</style>
+
+    <center id="login">
+        <h1>Log in Game</h1>
+        <form name="form" action="INICIO SESIÓN">
+            <input type="text" name="login" placeholder="Username"> <br>
+            <input type="password" name="password" placeholder="Password"> <br>
+            <input onclick="ir()" type="button" value="Enter">
+        </form>
+        <strong>Username: valentina // Password: 2163</strong>
+    </center>
+
+    <div id="game" class="juego">
+
+        <div id="container">
+        <div id="header">Rock Paper Scissor Battle</div>
+
+        <div id="Refreshbutton">
+            <button id="btn-clear">Refresh Button</button>
+            
+        </div>
+
+         <div id="overall">
+            <div id="comp">Round</div>
+            <div id="Overallpoints">0</div>
+        </div>
+
+        
+        <div id="Lastfive">
+            <aside>
+                <h4>Last Five:</h4>
+
+                    <li=”square”><u>YOU</u></li>
+                    <ol id="userlist"></ol>
+                    <li=”square”><u>CPU</u></li>
+                    <ol id="complist"></ol>
+                    
+            </aside>
+        </div>
+        
+
+        <div id="points">
+            <div id="user">YOU</div>
+            <div id="userPoints">0</div>
+            <div id="sign">/</div>
+            <div id="compPoints">0</div>
+            <div id="comp">CPU</div>
+        </div>
+
+            <div id="Total">
+                <h5>Total</h5>
+            <div id="Totalpoints">0</div>
+            </div>
+
+        <div id="options">
+            <div id="rock" class="choices"><i><img  width="70" height="70" src="images/left-st.jpg"></i></div>
+            <div id="paper" class="choices"><i><img width="70" height="70" src="images/paper.jpg"></i></div>
+            <div id="scissor" class="choices"><i><img width="70" height="70" src="images/right-sc.jpg"></i></div>
+   
+        </div>
+
+        <div id="result">
+            <div id="userResult">
+                <i><img  width="70" height="70" src="./images/left-st.jpg"></i>
+                <h3>YOU</h3>
+            </div>
+            <div id="resultText">Draw</div>
+            <div id="compResult">
+
+                <i><img width="70" height="70" src="./images/left-st.jpg"></i>
+                <h3>CPU</h3>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="./js/inicio.js"></script>
+
+</body>
+
+</html>

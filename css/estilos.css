@@ -1,0 +1,240 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    /*background-color: lightblue;*/
+    /*font-family: sans-serif;*/
+    /*box-sizing: border-box;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+/*#REFRESH BUTTON*/
+
+#Refreshbutton{
+    
+    z-index: 100;
+    position: fixed;
+    margin-left: 100px;
+    margin-top: 130px;
+    font-size: 40%;
+    border: 8px solid rgb(5, 5, 5);
+}
+
+
+
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+}
+
+#login{
+    
+    position: relative;
+    display: block;
+    height: 100%;
+    /*border: 10px solid rgb(0, 0, 0);*/
+    background: url('../images/1.jpg');
+    
+}
+
+
+#game{
+    /*border: 10px solid rgb(0, 0, 0);*/
+    height: 100%;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to top, #928e91, #333435);
+}
+
+#header {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #fff;
+}
+
+/*OVERALL*/
+
+#overall{
+
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*Lastfive*/
+
+#Lastfive, #aside {
+    z-index: 99 !important;
+    display: block;
+    height: 10px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    font-weight: 200;
+    width: 100%;
+    position: fixed;
+    top: 55%;
+    display: flex;
+    justify-content:flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+#points {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#user,
+#comp {
+ 
+    background: rgb(0, 0, 0);
+    display: grid;
+    place-items: center;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    font-size: 30px;
+}
+#Overallpoints{
+    font-size: 40px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+#userPoints,
+#sign,
+#compPoints {
+    font-size: 40px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+#options {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: calc(50% - 100px)
+}
+
+.choices {
+    height: 200px;
+    width: 200px;
+    margin: 0 70px;
+}
+
+.choices i {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #ffffff;
+    font-size: 80px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    border: 1px solid #ffffff7c;
+}
+
+.choices i:hover {
+    background: rgb(0, 0, 0);
+    color: #22569f;
+    border: 1px solid #22569f;
+}
+
+#result {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#result #userResult,
+#compResult {
+    height: 150px;
+    width: 100px;
+}
+
+#result #userResult i,
+#compResult i {
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+#result #userResult h3,
+#compResult h3 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+#result #resultText {
+    height: 150px;
+    width: 200px;
+    font-size: 30px;
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+
+
+
+
+
